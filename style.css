@@ -7,12 +7,14 @@
   background: #435d70;
   overflow: hidden;
 }
+
 .space .mars {
   position: absolute;
   top: 50%;
   left: 50%;
   z-index: 2;
 }
+
 .space .mars .tentacle {
   position: absolute;
   top: -60px;
@@ -25,8 +27,9 @@
   border-left: 15px solid #1aae1e;
   transform: rotate(-30deg);
   -webkit-animation: tentacle 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
-          animation: tentacle 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+  animation: tentacle 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
 }
+
 .space .mars .flag {
   position: absolute;
   height: 17px;
@@ -34,8 +37,9 @@
   top: -57px;
   left: -1px;
   -webkit-animation: flag-pole 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
-          animation: flag-pole 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+  animation: flag-pole 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
 }
+
 .space .mars .flag:before {
   content: "";
   position: absolute;
@@ -43,6 +47,7 @@
   width: 2px;
   background: #eee;
 }
+
 .space .mars .flag:after {
   content: "";
   position: absolute;
@@ -52,8 +57,9 @@
   top: 0;
   background: #aaa;
   -webkit-animation: flag-unfurl 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
-          animation: flag-unfurl 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+  animation: flag-unfurl 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
 }
+
 .space .mars .flag .small-tentacle {
   position: absolute;
   left: -16px;
@@ -64,9 +70,10 @@
   border-radius: 100%;
   transform: rotate(25deg);
   -webkit-animation: small-tentacle 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
-          animation: small-tentacle 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+  animation: small-tentacle 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
   z-index: 2;
 }
+
 .space .mars:before {
   content: "";
   position: absolute;
@@ -78,6 +85,7 @@
   background: #374d5c;
   border-radius: 100%;
 }
+
 .space .mars .planet {
   box-sizing: border-box;
   position: absolute;
@@ -89,6 +97,7 @@
   margin-top: -60px;
   z-index: 2;
 }
+
 .space .mars .planet .surface {
   position: absolute;
   border-radius: 100%;
@@ -100,6 +109,7 @@
   border: 30px solid rgba(0, 0, 0, 0.15);
   background: #ff5f40;
 }
+
 .space .mars .planet .crater1,
 .space .mars .planet .crater2,
 .space .mars .planet .crater3 {
@@ -108,12 +118,14 @@
   background: rgba(0, 0, 0, 0.15);
   box-shadow: inset 3px 3px 0 rgba(0, 0, 0, 0.2);
 }
+
 .space .mars .planet .crater1 {
   height: 20px;
   width: 20px;
   top: 32%;
   left: 17%;
 }
+
 .space .mars .planet .crater2 {
   height: 10px;
   width: 10px;
@@ -121,6 +133,7 @@
   left: 55%;
   box-shadow: inset 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
+
 .space .mars .planet .crater3 {
   height: 10px;
   width: 10px;
@@ -128,6 +141,7 @@
   left: 40%;
   box-shadow: inset 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
+
 .space .ship {
   position: absolute;
   right: 50%;
@@ -139,15 +153,17 @@
   transform-origin: 0% 100% 0;
   z-index: 1;
   -webkit-animation: ship 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
-          animation: ship 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+  animation: ship 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
 }
+
 .space .ship .ship-rotate {
   position: absolute;
   height: 22px;
   transform: rotate(-110deg);
   -webkit-animation: ship-rotate 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
-          animation: ship-rotate 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+  animation: ship-rotate 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
 }
+
 .space .ship .pod {
   position: absolute;
   top: 0;
@@ -158,6 +174,7 @@
   border-radius: 100% 0 100% 0;
   transform: rotate(-45deg);
 }
+
 .space .ship .fuselage {
   position: absolute;
   top: 14px;
@@ -167,6 +184,7 @@
   background: #eee;
   border-radius: 100% 100% 0 0;
 }
+
 .space .ship .fuselage:after {
   content: "";
   position: absolute;
@@ -178,6 +196,7 @@
   border-right: 4px solid transparent;
   border-top: 6px solid red;
 }
+
 .space .ship-shadow {
   position: absolute;
   right: 10%;
@@ -189,19 +208,22 @@
   background: #374d5c;
   border-radius: 100%;
   -webkit-animation: ship-shadow 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
-          animation: ship-shadow 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+  animation: ship-shadow 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
 }
 
 @-webkit-keyframes small-tentacle {
   0% {
     transform: rotate(-60deg);
   }
+
   86% {
     transform: rotate(-60deg);
   }
+
   89% {
     transform: rotate(10deg);
   }
+
   100% {
     transform: rotate(10deg);
   }
@@ -211,50 +233,64 @@
   0% {
     transform: rotate(-60deg);
   }
+
   86% {
     transform: rotate(-60deg);
   }
+
   89% {
     transform: rotate(10deg);
   }
+
   100% {
     transform: rotate(10deg);
   }
 }
+
 @-webkit-keyframes tentacle {
   0% {
     transform: rotate(-30deg);
   }
+
   75% {
     transform: rotate(-30deg);
   }
+
   80% {
     transform: rotate(-165deg) translate(6px, 8px);
   }
+
   82.5% {
     transform: rotate(-165deg) translate(28px, -17px);
   }
+
   100% {
     transform: rotate(-165deg) translate(35px, -22px);
   }
 }
+
 @keyframes tentacle {
   0% {
     transform: rotate(-30deg);
   }
+
   75% {
     transform: rotate(-30deg);
   }
+
   80% {
     transform: rotate(-165deg) translate(6px, 8px);
   }
+
   82.5% {
     transform: rotate(-165deg) translate(28px, -17px);
   }
+
   100% {
     transform: rotate(-165deg) translate(35px, -22px);
   }
 }
+
 @-webkit-keyframes ship {
   0% {
     right: -10%;
@@ -262,18 +298,22 @@
     margin-top: -55px;
     margin-right: -55px;
   }
+
   40% {
     right: 50%;
     top: 50%;
   }
+
   79.5% {
     margin-top: -55px;
     margin-right: -55px;
   }
+
   84% {
     margin-top: -20px;
     margin-right: 0px;
   }
+
   100% {
     right: 50%;
     top: 50%;
@@ -281,6 +321,7 @@
     margin-right: 0px;
   }
 }
+
 @keyframes ship {
   0% {
     right: -10%;
@@ -288,18 +329,22 @@
     margin-top: -55px;
     margin-right: -55px;
   }
+
   40% {
     right: 50%;
     top: 50%;
   }
+
   79.5% {
     margin-top: -55px;
     margin-right: -55px;
   }
+
   84% {
     margin-top: -20px;
     margin-right: 0px;
   }
+
   100% {
     right: 50%;
     top: 50%;
@@ -307,180 +352,230 @@
     margin-right: 0px;
   }
 }
+
 @-webkit-keyframes ship-rotate {
   0% {
     transform: rotate(-110deg);
   }
+
   20% {
     transform: rotate(-110deg);
   }
+
   34% {
     transform: rotate(47deg);
   }
+
   79% {
     transform: rotate(47deg);
   }
+
   100% {
     transform: rotate(47deg);
   }
 }
+
 @keyframes ship-rotate {
   0% {
     transform: rotate(-110deg);
   }
+
   20% {
     transform: rotate(-110deg);
   }
+
   34% {
     transform: rotate(47deg);
   }
+
   79% {
     transform: rotate(47deg);
   }
+
   100% {
     transform: rotate(47deg);
   }
 }
+
 @-webkit-keyframes ship-shadow {
   0% {
     right: -10%;
     transform: scale(1.4, 1);
     opacity: .3;
   }
+
   40% {
     right: 50%;
     transform: scale(0.75, 1);
     opacity: 1;
   }
+
   100% {
     right: 50%;
   }
 }
+
 @keyframes ship-shadow {
   0% {
     right: -10%;
     transform: scale(1.4, 1);
     opacity: .3;
   }
+
   40% {
     right: 50%;
     transform: scale(0.75, 1);
     opacity: 1;
   }
+
   100% {
     right: 50%;
   }
 }
+
 @-webkit-keyframes planet-bump {
   0% {
     margin-left: 0;
   }
+
   39% {
     margin-left: 0;
   }
+
   40% {
     margin-left: -1px;
   }
+
   40.5% {
     margin-left: 1px;
   }
+
   41% {
     margin-left: 0;
   }
+
   100% {
     margin-left: 0;
   }
 }
+
 @keyframes planet-bump {
   0% {
     margin-left: 0;
   }
+
   39% {
     margin-left: 0;
   }
+
   40% {
     margin-left: -1px;
   }
+
   40.5% {
     margin-left: 1px;
   }
+
   41% {
     margin-left: 0;
   }
+
   100% {
     margin-left: 0;
   }
 }
+
 @-webkit-keyframes flag-pole {
   0% {
     top: -57px;
   }
+
   48% {
     top: -57px;
   }
+
   54% {
     top: -77px;
   }
+
   90% {
     top: -77px;
   }
+
   92% {
     top: -57px;
   }
+
   100% {
     top: -57px;
   }
 }
+
 @keyframes flag-pole {
   0% {
     top: -57px;
   }
+
   48% {
     top: -57px;
   }
+
   54% {
     top: -77px;
   }
+
   90% {
     top: -77px;
   }
+
   92% {
     top: -57px;
   }
+
   100% {
     top: -57px;
   }
 }
+
 @-webkit-keyframes flag-unfurl {
   0% {
     width: 0;
   }
+
   55% {
     width: 0;
   }
+
   60% {
     width: 14px;
   }
+
   90% {
     width: 14px;
   }
+
   100% {
     width: 14px;
   }
 }
+
 @keyframes flag-unfurl {
   0% {
     width: 0;
   }
+
   55% {
     width: 0;
   }
+
   60% {
     width: 14px;
   }
+
   90% {
     width: 14px;
   }
+
   100% {
     width: 14px;
   }
